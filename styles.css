@@ -77,6 +77,7 @@
 .mid{
     display:flex;
     flex-direction: column;
+    margin-bottom:50px;
 }
 .mid-head{
     display: flex;
@@ -110,4 +111,20 @@
     height: 100px;
     width: 100px;
     margin-bottom: 15px;
+}
+.quote{
+    padding: 40px 180px 40px 180px;
+    background-color: #E5E7EB;
+}
+.quote-text{
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 16px 
+}
+.quote-name{
+    font-weight: 500;
+    text-align: right;
+    padding-right: 26px;
 }
