@@ -27,8 +27,9 @@
 .head-links{
     display: flex;
     justify-content: end;
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
+    font-weight: 200;
 }
 .head-links p{
     margin-left: 10px;
@@ -57,7 +58,7 @@
 .text-text{
     font-size: 18px;
 }
-.text-button{
+.text-button,.bottom-button{
     background-color: #3882f6;
     border: none;
     border-radius: 10px;
@@ -127,4 +128,46 @@
     font-weight: 500;
     text-align: right;
     padding-right: 26px;
+}
+.bottom{
+    padding: 64px 180px 64px 180px;
+}
+.bottom-box{
+    border-radius: 8px;
+    padding: 41px 92px 41px 92px;
+    display: flex;
+    background-color: #3882f6;
+}
+.bottom-button{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+.box-button{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+}
+.text-action{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.text-sign{
+    font-weight: 400;
+    font-size: 15px;
+}
+.box-text{
+    color:#F9FAF8;
+    flex: 2 1 auto;
+}
+.footer{
+    background-color: #1F2937;
+    height: 50px;
+    color:#F9FAF8;
+    font-weight: 100;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
